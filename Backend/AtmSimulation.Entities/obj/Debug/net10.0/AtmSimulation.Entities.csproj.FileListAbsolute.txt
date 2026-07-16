@@ -1,0 +1,14 @@
+C:\Users\Fatoş\source\repos\AtmSimulation\.verify-build\AtmSimulation.Entities.deps.json
+C:\Users\Fatoş\source\repos\AtmSimulation\.verify-build\AtmSimulation.Entities.dll
+C:\Users\Fatoş\source\repos\AtmSimulation\.verify-build\AtmSimulation.Entities.pdb
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Entities\bin\Debug\net10.0\AtmSimulation.Entities.deps.json
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Entities\bin\Debug\net10.0\AtmSimulation.Entities.dll
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Entities\bin\Debug\net10.0\AtmSimulation.Entities.pdb
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Entities\obj\Debug\net10.0\AtmSimulation.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Entities\obj\Debug\net10.0\AtmSimulation.Entities.AssemblyInfoInputs.cache
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Entities\obj\Debug\net10.0\AtmSimulation.Entities.AssemblyInfo.cs
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Entities\obj\Debug\net10.0\AtmSimulation.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Entities\obj\Debug\net10.0\AtmSimulation.Entities.dll
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Entities\obj\Debug\net10.0\refint\AtmSimulation.Entities.dll
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Entities\obj\Debug\net10.0\AtmSimulation.Entities.pdb
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Entities\obj\Debug\net10.0\ref\AtmSimulation.Entities.dll

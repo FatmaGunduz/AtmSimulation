@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AtmSimulation.API/AtmSimulation.API.csproj" />
+  <Project Path="AtmSimulation.Business/AtmSimulation.Business.csproj" />
+  <Project Path="AtmSimulation.DataAccess/AtmSimulation.DataAccess.csproj" />
+  <Project Path="AtmSimulation.DTOs/AtmSimulation.Application.csproj" />
+  <Project Path="AtmSimulation.Entities/AtmSimulation.Entities.csproj" />
+</Solution>

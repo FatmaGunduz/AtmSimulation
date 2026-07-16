@@ -1,0 +1,20 @@
+# --- .NET (Backend) ---
+backend/[Bb]in/
+backend/[Oo]bj/
+backend/.vs/
+backend/.idea/
+backend/*.user
+backend/*.suo
+
+# --- Node/Angular (Frontend) ---
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+frontend/tmp/
+frontend/out-tsc/
+frontend/.env
+
+# --- Diğer ---
+.gemini/
+scratch/
+*.log

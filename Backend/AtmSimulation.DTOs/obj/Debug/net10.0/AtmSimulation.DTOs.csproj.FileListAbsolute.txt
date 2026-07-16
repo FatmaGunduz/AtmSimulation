@@ -1,0 +1,15 @@
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\bin\Debug\net10.0\AtmSimulation.DTOs.deps.json
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\bin\Debug\net10.0\AtmSimulation.DTOs.dll
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\bin\Debug\net10.0\AtmSimulation.DTOs.pdb
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\bin\Debug\net10.0\AtmSimulation.Entities.dll
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\bin\Debug\net10.0\AtmSimulation.Entities.pdb
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\obj\Debug\net10.0\AtmSimulation.DTOs.csproj.AssemblyReference.cache
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\obj\Debug\net10.0\AtmSimulation.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\obj\Debug\net10.0\AtmSimulation.DTOs.AssemblyInfoInputs.cache
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\obj\Debug\net10.0\AtmSimulation.DTOs.AssemblyInfo.cs
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\obj\Debug\net10.0\AtmSimulation.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\obj\Debug\net10.0\AtmSimul.6459E7E1.Up2Date
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\obj\Debug\net10.0\AtmSimulation.DTOs.dll
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\obj\Debug\net10.0\refint\AtmSimulation.DTOs.dll
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\obj\Debug\net10.0\AtmSimulation.DTOs.pdb
+C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.DTOs\obj\Debug\net10.0\ref\AtmSimulation.DTOs.dll

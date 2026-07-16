@@ -1,0 +1,9 @@
+2026-05-08 14:22:52.671 +03:00 [ERR] WithdrawAsync hata - CardId: 1, AccountId: 1, AtmId: 3, Amount: 100
+System.DivideByZeroException: Attempted to divide by zero.
+   at AtmSimulation.Business.Services.AtmService.WithdrawAsync(Int32 cardId, Int32 accountId, Int32 atmId, Decimal amount) in C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Business\Services\AtmService.cs:line 194
+2026-05-08 14:28:44.746 +03:00 [ERR] WithdrawAsync hata - CardId: 1, AccountId: 1, AtmId: 1, Amount: 10
+System.DivideByZeroException: Attempted to divide by zero.
+   at AtmSimulation.Business.Services.AtmService.WithdrawAsync(Int32 cardId, Int32 accountId, Int32 atmId, Decimal amount) in C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Business\Services\AtmService.cs:line 194
+2026-05-08 14:35:54.513 +03:00 [ERR] WithdrawAsync hata - CardId: 1, AccountId: 1, AtmId: 1, Amount: 100
+System.DivideByZeroException: Attempted to divide by zero.
+   at AtmSimulation.Business.Services.AtmService.WithdrawAsync(Int32 cardId, Int32 accountId, Int32 atmId, Decimal amount) in C:\Users\Fatoş\source\repos\AtmSimulation\AtmSimulation.Business\Services\AtmService.cs:line 194

@@ -1,0 +1,649 @@
+[
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AccountController",
+    "Method": "GetAll",
+    "RelativePath": "api/Account",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AccountController",
+    "Method": "GetById",
+    "RelativePath": "api/Account/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AccountController",
+    "Method": "Delete",
+    "RelativePath": "api/Account/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AccountController",
+    "Method": "Create",
+    "RelativePath": "api/Account/create/{customerId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.Application.DTOs.CreateAccountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AdminController",
+    "Method": "AddAtm",
+    "RelativePath": "api/Admin/add-atm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "c200",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "c100",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "c50",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "c20",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "c10",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AdminController",
+    "Method": "AddIssue",
+    "RelativePath": "api/Admin/add-issue/{atmId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "atmId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.API.Controllers.AddIssueDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AdminController",
+    "Method": "GetAll",
+    "RelativePath": "api/Admin/all-atms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AdminController",
+    "Method": "GetAllCreditLimitRequests",
+    "RelativePath": "api/Admin/credit-limit-requests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AdminController",
+    "Method": "DecideCreditLimitRequest",
+    "RelativePath": "api/Admin/credit-limit-requests/{cardId}/decision",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cardId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.Application.DTOs.ApproveCreditLimitIncreaseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AdminController",
+    "Method": "GetPendingCreditLimitRequests",
+    "RelativePath": "api/Admin/credit-limit-requests/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AdminController",
+    "Method": "FixAtmIssue",
+    "RelativePath": "api/Admin/fix-atm-issue/{atmId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "atmId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AdminController",
+    "Method": "Login",
+    "RelativePath": "api/Admin/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.Application.DTOs.AdminLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AdminController",
+    "Method": "GetLogs",
+    "RelativePath": "api/Admin/logs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AdminController",
+    "Method": "UpdateAtmStatus",
+    "RelativePath": "api/Admin/update-atm-status/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.Application.DTOs.UpdateAtmStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "GetAccounts",
+    "RelativePath": "api/Atm/accounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "GetAllTransactions",
+    "RelativePath": "api/Atm/admin/transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "GetAccountTransactions",
+    "RelativePath": "api/Atm/admin/transactions/account/{accountId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "GetBalance",
+    "RelativePath": "api/Atm/balance/{accountId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "GetCardSettings",
+    "RelativePath": "api/Atm/card-settings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "GetCreditLimitRequestStatusFromCardSettings",
+    "RelativePath": "api/Atm/card-settings/credit-limit-request",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "RequestCreditLimitIncreaseFromCardSettings",
+    "RelativePath": "api/Atm/card-settings/request-credit-limit-increase",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.Application.DTOs.RequestCreditLimitIncreaseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "ChangePin",
+    "RelativePath": "api/Atm/change-pin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "AtmSimulation.Application.DTOs.ChangePinRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "Deposit",
+    "RelativePath": "api/Atm/deposit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "AtmSimulation.Application.DTOs.DepositRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "GetStatement",
+    "RelativePath": "api/Atm/statement/{accountId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "Transfer",
+    "RelativePath": "api/Atm/transfer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.Application.DTOs.TransferRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "VerifyPin",
+    "RelativePath": "api/Atm/verify-pin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "AtmSimulation.Application.DTOs.PinVerifyRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.AtmController",
+    "Method": "Withdraw",
+    "RelativePath": "api/Atm/withdraw",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "AtmSimulation.Application.DTOs.WithdrawRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CardController",
+    "Method": "GetAll",
+    "RelativePath": "api/Card",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CardController",
+    "Method": "Create",
+    "RelativePath": "api/Card",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.Application.DTOs.CreateCardDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CardController",
+    "Method": "GetByIdResult",
+    "RelativePath": "api/Card/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CardController",
+    "Method": "Delete",
+    "RelativePath": "api/Card/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CardController",
+    "Method": "ApproveLimitIncrease",
+    "RelativePath": "api/Card/{id}/approve-limit-increase",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.Application.DTOs.ApproveCreditLimitIncreaseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CardController",
+    "Method": "GetAllLimitRequests",
+    "RelativePath": "api/Card/all-limit-requests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CardController",
+    "Method": "GetMyLimitRequest",
+    "RelativePath": "api/Card/my-limit-request",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CardController",
+    "Method": "GetPendingRequests",
+    "RelativePath": "api/Card/pending-requests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CardController",
+    "Method": "RequestLimitIncrease",
+    "RelativePath": "api/Card/request-limit-increase",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.Application.DTOs.RequestCreditLimitIncreaseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CardController",
+    "Method": "Unblock",
+    "RelativePath": "api/Card/unblock",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.Application.DTOs.UnblockCardDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CustomerController",
+    "Method": "GetAll",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CustomerController",
+    "Method": "Create",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AtmSimulation.Application.DTOs.CreateCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CustomerController",
+    "Method": "GetById",
+    "RelativePath": "api/Customer/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.CustomerController",
+    "Method": "Delete",
+    "RelativePath": "api/Customer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.ReportController",
+    "Method": "GetAllAuditLogs",
+    "RelativePath": "api/Report/audit-logs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AtmSimulation.API.Controllers.ReportController",
+    "Method": "GetAllTransactions",
+    "RelativePath": "api/Report/transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

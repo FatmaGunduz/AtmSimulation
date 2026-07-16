@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "AtmSimulation.DTOs/1.0.0": {
+        "dependencies": {
+          "AtmSimulation.Entities": "1.0.0"
+        },
+        "runtime": {
+          "AtmSimulation.DTOs.dll": {}
+        }
+      },
+      "AtmSimulation.Entities/1.0.0": {
+        "runtime": {
+          "AtmSimulation.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AtmSimulation.DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AtmSimulation.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
