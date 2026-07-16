@@ -1,4 +1,4 @@
-# 🏦 Full-Stack ATM Simülasyonu (.NET 10 API & Angular 21)
+# 🏦 ATM Simülasyonu (.NET 10 API & Angular 21)
 
 Bu proje, modern bir bankacılık ve ATM ağ yönetim simülasyonudur. Proje, müşterilerin ATM üzerinden klasik bankacılık işlemlerini gerçekleştirebildiği **Müşteri Paneli** ile banka yöneticilerinin ATM filosunu ve müşteri limitlerini izleyip yönetebildiği **Yönetici (Admin) Paneli** olmak üzere iki ana modülden oluşmaktadır.
 
